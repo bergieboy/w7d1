@@ -1,4 +1,5 @@
 import React from 'react';
+import TodoListContainer from './todo_list/todo_list_container';
 
 class App extends React.Component {
 
@@ -6,6 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Todo List</h1>
+        <TodoListContainer />
       </div>
     );
   }
